@@ -174,18 +174,110 @@
 //     alert("The cost equals")
 // }
 
-if(true){
-    alert("true");
+// if(true){
+//     alert("true");
+// }
+// if(false){
+//     alert("false");
+//     console.log("false")
+// }
+
+// if("car" < "cat"){
+// alert("car is smaller than cat");
+// console.log("car is smaller than cat")
+// }
+
+// task 6
+
+// var obtaindMarks1=+prompt("Enter your first Subject obtaind Mark:");
+// var obtaindMarks2=+prompt("Enter your first Subject obtaind Mark:");
+// var obtaindMarks3=+prompt("Enter your first Subject obtaind Mark:");
+// var totalMarks=300;
+// var totalObtaindMark=obtaindMarks1 + obtaindMarks2 +obtaindMarks3;
+// var percentage=totalMarks/totalObtaindMark*100;
+
+// if(percentage === 80 || percentage > 80){
+//     document.write("<h1> Mark sheet </h1><br>"+
+//     "total mark :" +totalMarks +"<br>" +"Marks Obtaind:"+ totalObtaindMark+
+//     "<br>"+"percentage:"+percentage+"%"+"<br>"+"grade:A-one"+"<br> Remarks:Exellent")
+// }
+
+// if(percentage === 60 || percentage > 60){
+//     document.write("<h1> Mark sheet </h1><br>"+
+//     "total mark :" +totalMarks +"<br>" +"Marks Obtaind:"+ totalObtaindMark+
+//     "<br>"+"percentage:"+percentage+"%"+"<br>"+"grade: B"+"<br> Remarks:You Need improve")
+// }
+// else{
+//     alert("sorry")
+// }
+
+// task 10
+
+var temp=+prompt("Enter temperatur:")
+
+if(temp > 40 || temp===40){
+    alert("it's To hot Out Side");
 }
-if(false){
-    alert("false");
-    console.log("false")
+if(temp > 30 || temp===30){
+    alert("The Weather Today is normal");
+}
+if(temp > 20 || temp===20){
+    alert("today's weather is Cool");
+}
+if(temp > 10 || temp===10){
+    alert("OMG! today's weather is So Cool");
+}
+else{
+    alert("Ooooohhh Innni thaand")
 }
 
-if("car" < "cat"){
-alert("car is smaller than cat");
-console.log("car is smaller than cat")
+// task 11
+// // Calculater
+
+var num1 = +prompt("Enter a number");
+var num2 = +prompt("Enter a number ");
+var opt = prompt("Enter your operator");
+
+if (opt==="+"){
+    var result = num1+num2;
+    // document.write("addition of two number is : " + result);
+    alert("addition of two number is : " + result)
+    // document.write("Addition");
+    console.log("Addition");
+
 }
+
+if (opt==="-"){
+    var result = num1-num2;
+    // document.write("subtraction of two number is : " + result);
+    alert("subtraction of two number is : " + result)
+
+    // document.write("subtraction");
+
+
+}
+
+if (opt==="*"){
+    var result = num1*num2;
+    // document.write("multiplication of two number is : " + result);
+    alert("multiplication of two number is : " + result)
+    // document.write("Mul");
+
+
+}
+
+if (opt==="/"){
+    var result = num1/num2;
+    // document.write("division of two number is : " + result);
+    alert("division of two number is : " + result)
+    // document.write("Div");
+
+
+
+}
+
+
+
 
 
 

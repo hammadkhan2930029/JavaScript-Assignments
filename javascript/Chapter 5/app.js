@@ -95,49 +95,6 @@ age = age + 1;
 var result=firstName+" "+lastName;
 alert("Result: "+ result +" " +"my age is:"+ age);
 
-// // Calculater
-
-// var num1 = +prompt("Enter a number");
-// var num2 = +prompt("Enter a number ");
-// var opt = prompt("Enter your operator");
-
-// if (opt==="+"){
-//     var result = num1+num2;
-//     // document.write("addition of two number is : " + result);
-//     alert("addition of two number is : " + result)
-//     document.write("Addition");
-//     console.log("Addition");
-
-// }
-
-// if (opt==="-"){
-//     var result = num1-num2;
-//     // document.write("subtraction of two number is : " + result);
-//     alert("subtraction of two number is : " + result)
-
-//     document.write("subtraction");
-
-
-// }
-
-// if (opt==="*"){
-//     var result = num1*num2;
-//     // document.write("multiplication of two number is : " + result);
-//     alert("multiplication of two number is : " + result)
-//     document.write("Mul");
-
-
-// }
-
-// if (opt==="/"){
-//     var result = num1/num2;
-//     // document.write("division of two number is : " + result);
-//     alert("division of two number is : " + result)
-//     document.write("Div");
-
-
-
-// }
 
 
 
