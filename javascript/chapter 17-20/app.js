@@ -7,9 +7,16 @@
 
 // // task 2
 
-var array=[[0,1],[2,3],[1,0],[1,2],[2,1],[0,1]];
+// var array=[[0,1,2,3],[1,0,1,2],[2,0,1,3]];
 
-for(var i =0 ; i < array.length; i++)
+// for(var i=0; i < array.length; i++){
+//     for(var j=0; j < array[i].length; j++){
+//         console.log(array[i][j]);
+//         document.write(array[i][j]);
+//     }
+//     document.write("<br>")
+    
+// }
 
 
 
@@ -73,4 +80,39 @@ for(var i =0 ; i < array.length; i++)
 
 // var sorted = array.sort().reverse();
 // console.log(sorted[0])
+
+// task 4
+
+// var table =+prompt("enter table no");
+// var tableLenght =+prompt("enter table lenght");
+// document.write(`Multiplication table of ${table}<br> lenght ${tableLenght}`);
+
+// for(var i=1; i<=tableLenght; i++)
+// {
+//     // console.log(table * i);
+//     document.write(table + "x" + i + "=" + table * i + "<br>");
+
+// }
+
+// sab sy choti value get karni hay
+
+var arr =[24,25,81,5,2,85,1,36,95];
+// var max=0;
+
+// for(var i=1; i < arr.length; i++){
+//     if(max < arr[i]){
+//         max = arr[i]
+//     }
+//     console.log(max);
+// }
+
+var min = arr[0]
+for(var i=arr.length; i>0; i--){
+    if(min>arr[i])
+    {
+        min=arr[i]
+    }
+}
+console.log(min)
+
 
