@@ -96,7 +96,7 @@
 
 // sab sy choti value get karni hay
 
-var arr =[24,25,81,5,2,85,1,36,95];
+// var arr =[24,25,81,5,2,85,1,36,95];
 // var max=0;
 
 // for(var i=1; i < arr.length; i++){
@@ -106,13 +106,23 @@ var arr =[24,25,81,5,2,85,1,36,95];
 //     console.log(max);
 // }
 
-var min = arr[0]
-for(var i=arr.length; i>0; i--){
-    if(min>arr[i])
-    {
-        min=arr[i]
-    }
-}
-console.log(min)
+// var min = arr[0]
+// for(var i=arr.length; i>0; i--){
+//     if(min>arr[i])
+//     {
+//         min=arr[i]
+//     }
+// }
+// console.log(min)
 
+// max or min value get karny k lia alag methode 
+
+// var arr = [25,84,42,63,2,8,4,6,87,93,91,85]
+
+// var sortedValue=arr.sort()
+// console.log(sortedValue)
+// var max= sortedValue.pop()
+// var min=sortedValue.shift()
+
+// console.log(max,min)
 
