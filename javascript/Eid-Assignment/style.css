@@ -1,0 +1,190 @@
+body {
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    width: 100%;
+    height: 100vh;
+    /* font-family: new-font; */
+    /* backdrop-filter: blur(2px); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: new-font;
+    src: url(font/hello-friday-hello-friday-svg-400.otf);
+}
+
+@font-face {
+    font-family: alQalam;
+    src: url(font/alqalam\ AlQalam\ Khalid\ Maqbool.ttf);
+}
+
+@font-face {
+    font-family: urdu;
+    src: url(font/urdu_new.ttf);
+}
+
+.heading {
+    text-align: center;
+    /* font-family: urdu; */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10%;
+    /* border: 1px solid; */
+    width: 75%;
+    margin: 0 auto;
+    height: 320px;
+    background: #ffffff9c;
+    backdrop-filter: blur(5px);
+    box-shadow: #001940 0px 5px 15px;
+}
+
+.first_day {
+    color: black;
+    width: 25%;
+    /* border: 1px solid #fff; */
+    text-shadow: #001940 0px 5px 15px;
+
+    height: 300px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 5%;
+    box-shadow: #001940 0px 5px 15px;
+    font-family: urdu;
+    margin-left: 8%;
+    /* margin-top: 50px; */
+}
+
+.second_day {
+    color: black;
+    width: 25%;
+    /* border: 1px solid #fff; */
+
+    height: 300px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 5%;
+    box-shadow: #001940 0px 5px 15px;
+
+    font-family: urdu;
+    margin-left: 8%;
+    text-shadow: #001940 0px 5px 15px;
+
+
+}
+
+.third_day {
+    color: black;
+    width: 25%;
+    /* border: 1px solid #fff; */
+
+    height: 300px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 5%;
+    box-shadow: #001940 0px 5px 15px;
+    font-family: urdu;
+    margin-left: 4%;
+    text-shadow: #001940 0px 5px 15px;
+
+
+
+}
+
+h1 {
+    font-family: alQalam;
+    font-size: 100px;
+    color: #001940;
+    text-shadow: #001940 0px 5px 15px;
+    /* margin-top: 5px; */
+
+
+}
+
+h1:hover {
+    text-shadow: #001940 0px 15px 15px;
+
+
+}
+
+.first_day:hover {
+    box-shadow: rgba(54, 10, 229, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 2s;
+}
+
+.second_day:hover {
+    box-shadow: rgba(54, 10, 229, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 2s;
+}
+
+.third_day:hover {
+    box-shadow: rgba(54, 10, 229, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 2s;
+}
+
+.myAudio {
+
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10%;
+    background: #ffffff9c;
+    backdrop-filter: blur(5px);
+    box-shadow: #001940 0px 5px 15px;
+    margin-top: 7px;
+
+}
+
+.myaudio1 {
+    margin-top: 10px;
+    margin-left: 40%
+}
+.para{
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10%;
+    background: #ffffff9c;
+    backdrop-filter: blur(5px);
+    box-shadow: #001940 0px 5px 15px;
+    margin-top: 7px;
+    height: 60px;
+
+}
+.para1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    font-family: urdu;
+    font-weight: bold;
+
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    color: aliceblue;
+    background-color: #001940;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: black 0px 5px 15px;
+    font-weight: bold;
+
+}
+a:hover{
+    cursor: pointer;
+    background-color:  aliceblue;
+    color: #001940;
+    transition: 1s;
+
+}
+
