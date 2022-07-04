@@ -46,13 +46,14 @@ var secondEid_mints = Math.ceil(difference2/(1000*60));
 var thirdEid_mints = Math.ceil(difference3/(1000*60));
 
 var first = document.getElementById("first");
-first.innerHTML =`<h2>پہلی عید</h2>پہلی عید${firstEid} دن بعد ہے اور ابھی ${firstEid_hours}  گھنٹے اور ${firstEid_mints}  منٹ باقی ہیں`;
+first.innerHTML =`<h2>پہلی عید </h2><p> ${firstEid} <p>دن بعد ہے اور ابھی ${firstEid_hours}  گھنٹے اور ${firstEid_mints}  منٹ باقی ہیں</p>`;
 
 var second = document.getElementById("second");
-second.innerHTML = `<h2>دوسری عید</h2>دوسری عید دن ${secondEid} بعد ہے اور ابھی ${secondEid_hours} گھنٹے اور ${secondEid_mints} منٹ باقی ہیں`;
+second.innerHTML = `<h2>دوسری عید</h2> ${secondEid} <p>دن بعد ہے اور ابھی ${secondEid_hours}  گھنٹے اور ${secondEid_mints}  منٹ باقی ہیں</p>`;
 
 var third = document.getElementById("third");
-third.innerHTML = `<h2>تیسری عید</h2>تیسری عید ${thirdEid} دن بعد ہے اور ابھی ${thirdEid_hours} گھنٹے اور ${thirdEid_mints} منٹ باقی ہیں`;
+third.innerHTML = `<h2>تیسری عید</h2>  ${thirdEid} <p>دن بعد ہے اور ابھی ${thirdEid_hours}  گھنٹے اور ${thirdEid_mints}  منٹ باقی ہیں</p>`;
+;
 
 
 

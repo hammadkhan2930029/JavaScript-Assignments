@@ -118,17 +118,17 @@ h1:hover {
 
 .first_day:hover {
     box-shadow: rgba(54, 10, 229, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .second_day:hover {
     box-shadow: rgba(54, 10, 229, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .third_day:hover {
     box-shadow: rgba(54, 10, 229, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .myAudio {
@@ -147,7 +147,8 @@ h1:hover {
     margin-top: 10px;
     margin-left: 40%
 }
-.para{
+
+.para {
     width: 75%;
     margin: 0 auto;
     border-radius: 10%;
@@ -158,7 +159,8 @@ h1:hover {
     height: 60px;
 
 }
-.para1{
+
+.para1 {
     text-align: center;
     font-size: 24px;
     padding-top: 10px;
@@ -167,7 +169,8 @@ h1:hover {
 
 
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 20px;
     /* border: 2px solid black; */
@@ -178,13 +181,127 @@ a{
     height: 100px;
     box-shadow: black 0px 5px 15px;
     font-weight: bold;
+    padding: 5px 15px;
 
 }
-a:hover{
-    cursor: pointer;
-    background-color:  aliceblue;
-    color: #001940;
-    transition: 1s;
 
+a:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #001940;
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 90%;
+        display: block;
+        height: auto;
+    }
+
+    .third_day,
+    .second_day,
+    .first_day {
+        width: 50%;
+        margin: 25px auto;
+    }
+
+    .para1 {
+        margin-top: 20px;
+    }
+
+    .myAudio {
+        text-align: center;
+    }
+
+    .myaudio1 {
+        margin-left: unset;
+    }
+
+    .para {
+        width: 95%;
+    }
+
+    a {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .third_day,
+    .second_day,
+    .first_day {
+        width: 80%;
+        background-color: #fff;
+
+    }
+
+    .para {
+        height: 220px;
+        line-height: 64px;
+        border-radius: unset;
+    }
+
+    .heading {
+        background: #ffffff54;
+        backdrop-filter: blur(15px);
+    }
+    .main{
+        background: unset;
+        box-shadow: unset;
+    }
+    body{
+        background-image: unset;
+        background-color: #8080804a;
+    }
+    .myAudio {
+        width: 95%;
+        border-radius: unset;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    .third_day,
+    .second_day,
+    .first_day {
+        width: 100%;
+        font-size: ;
+        
+
+    }
+    .main{
+        width: 95%;
+    }
+    
+    .para1{
+        font-size: 25px;
+        padding: 15px;
+    }
+    h1{
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    p {
+        font-size: 32px;
+        padding: 15px;
+        line-height: 46px;
+    }
 }
 
