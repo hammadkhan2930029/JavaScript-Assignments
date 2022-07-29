@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(image/background.jpeg);
+    width: 100%;
+    
+}
+
+.main {
+    background: #ffffff9c;
+    backdrop-filter: blur(3px);
+    width: 70%;
+    height: 730px;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.image {
+    display: flex;
+    margin: 0 auto;
+    height: 700px;
+    padding-top: 15px;
+
+}
+
+@media screen and (max-width: 365px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .main {
+        background-color: unset;
+        width: unset;
+        height: unset;
+        margin: unset;
+    }
+
+    .image {
+        height: 598px;
+
+        padding-top: 27px;
+
+    }
+}
