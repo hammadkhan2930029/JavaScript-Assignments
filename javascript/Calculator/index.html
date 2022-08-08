@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+<!-- -----------------Calculator-------------------------- -->
+
+    <div class="main">
+        <div class="para">CALCULATOR</div>
+        <div><input class="input"  id="cal-input"></div>
+        <br />
+        <div class="first">
+            <button onclick="insertValue('9')">9</button>
+            <button onclick="insertValue('8')">8</button>
+            <button onclick="insertValue('7')">7</button>
+            <button onclick="clearValue()">C</button>
+        </div>
+        <div>
+            <button onclick="insertValue('6')">6</button>
+            <button onclick="insertValue('5')">5</button>
+            <button onclick="insertValue('4')">4</button>
+            <button id="multi" onclick="insertValue('*')">x</button>
+        </div>
+        <div>
+            <button onclick="insertValue('3')">3</button>
+            <button onclick="insertValue('2')">2</button>
+            <button onclick="insertValue('1')">1</button>
+            <button id="plus" onclick="insertValue('+')">+</button>
+        </div>
+        <div>
+            <button onclick="insertValue('0')">0</button>
+            <button id="sub" onclick="insertValue('-')">-</button>
+            <button id="div" onclick="insertValue('/')">/</button>
+            <button onclick="showResult()">=</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

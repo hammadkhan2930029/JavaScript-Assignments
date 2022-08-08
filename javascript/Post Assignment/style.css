@@ -1,0 +1,202 @@
+body{
+    
+    background-image: url(background2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+.main1{
+    
+    width: 30%;
+    height: 310px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgb(240, 240, 240);
+    background-color: white;
+
+}
+textarea{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+}
+.mainColor{
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+button{
+    width: 448px;
+    border: none;
+    margin-left: 4px;
+    /* border: 2px solid black; */
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.red{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.green{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: green;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.blue{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.yellow{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: yellow;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+/* second section  */
+.div2{
+    width: 30%;
+    height: 475px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgb(240, 240, 240);
+    /* border: 2px solid black; */
+    background-color: white;
+    
+
+}
+.para{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    opacity: 0.5;
+
+}
+p{
+    font-size: 24px;
+}
+.likeComment{
+    margin-left: 2px;
+    width: 99%;
+    margin-top: 21px;
+    display: flex;
+
+
+}
+.like{
+    width: 220px;
+    height: 27px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+
+
+}
+.Comments{
+    margin-left: 2px;
+    width: 220px;
+    height: 27px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    
+
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+.co{
+    
+    width: 30%;
+    margin-top: 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgb(240, 240, 240);
+    background-color: white;
+    display: inline-block;
+
+}
+input{
+    border: none;
+    font-size: 20px;
+}
+.heading{
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.red:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.green:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.yellow:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.blue:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.like:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Comments:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+button:hover{
+    
+    cursor: pointer;
+
+}

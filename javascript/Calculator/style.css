@@ -1,0 +1,93 @@
+body {
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 94vh;
+    background-position-y: -130px;
+
+}
+@font-face {
+    font-family: new;
+    src: url(font/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: my-font;
+    src: url(font/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: new-font;
+    src: url(font/Righteous-Regular.ttf);
+}
+
+.main {
+    /* border: 2px solid black; */
+    width: 365px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: linear-gradient(#30E8BF, #FF8235);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.main:hover {
+    background-image: linear-gradient(#11998e, #38ef7d);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 4s;
+    
+
+}
+.para{
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    font-family: new-font;
+    text-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    color: white;
+
+}
+
+.input {
+    
+    width: 365;
+    border: unset;
+    margin-top: 25px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #d3d3d3 , #e0ffff);
+    margin-left: 8px;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+button {
+    font-size: 32px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 7px;
+    font-weight: bold;
+    border-radius: 100%;
+    background-image: linear-gradient(#11998e, #38ef7d);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: white;
+}
+
+button:hover {
+    background-image: linear-gradient(#30E8BF, #FF8235);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 5s;
+
+
+}
+
+.first {
+    margin-top: 40px;
+}

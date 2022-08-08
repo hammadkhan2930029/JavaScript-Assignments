@@ -1,0 +1,68 @@
+body{
+    background-image: url(back.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    
+    
+
+   
+}
+.main{
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 75%;
+    height: 600px;
+    background-position-y: -80px;
+    background-color: rgb(45, 120, 186);
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: red  5px 5px 5px;
+    
+}
+.btn{
+   margin-left: 35%;
+   display: flex;
+   text-align: center;
+   padding: 10px;
+
+    
+}
+.button{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 24px;
+    padding: 5px;
+}
+#boo{
+    margin-left: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid white;
+    transition: 1s;
+    color: black;
+    font-weight: bold;
+}
+.characterOne{
+    width: 120px;
+    margin-top: 330px;
+    position: absolute;
+
+}
+.characterTwo{
+    width: 130px;
+    margin-top: 335px;
+    height: 200px;
+    position: absolute;
+
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+
+    <div class="main1" id="main1">
+        <div class="text">
+            <img src="pic.jpeg" alt="">
+            <textarea name="Comments" id="textarea" placeholder="Enter your Contain" cols="40" rows="10"></textarea>
+        </div>
+
+        <div onclick="post()"><button id="button">post</button></div>
+    </div>
+
+    <div class="div2" id="div2" style="display: none;">
+        <div class="profile">
+            <img src="pic.jpeg" alt="">
+            <p class="heading">M Hammad Khan</p>
+        </div>
+        <div class="para" id="para">
+            <p id="para2"></p>
+        </div>
+        <div id="color" class="mainColor">
+            <div onclick="red()" class="red" id="red"></div>
+            <div onclick="green()" class="green" id="green"></div>
+            <div onclick="blue()" class="blue" id="blue"></div>
+            <div onclick="yellow()" class="yellow" id="yellow"></div>
+
+
+        </div>
+        <div class="likeComment">
+            <div onclick="like()" class="like"><i class="fa-solid fa-thumbs-up">like <span id="counter"></span></i>
+            </div>
+            <div onclick="comment()" class="Comments"><i class="fa-solid fa-comment-dots">Comments</i></div>
+
+        </div>
+
+    </div>
+    <div class="co" id="co" style="display: none;">
+        <img src="pic.jpeg" alt="">
+        <input type="comment" placeholder="Enetr Your Comments">
+    </div>
+
+</div>
+
+
+    <script src="App.js"></script>
+
+</body>
+
+</html>
