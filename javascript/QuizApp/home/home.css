@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color:  #e9ecef;
+
+}
+@font-face {
+    font-family: new;
+    src: url(../font/Righteous-Regular.ttf);
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #10266b;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+
+}
+
+img {
+    width: 12%;
+    margin: 5px;
+}
+h1{
+    font-family: new;
+    text-align: center;
+    color: #10266b;
+    font-size: 60px;
+}
+.btn_list{
+    width: 80%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+button {
+    height: 50px;
+    font-family: new;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgb(32 33 36 / 28%);
+    border-radius: 5px;
+    background-color: #10266b;
+    color: white;
+
+
+
+}
+button:active{
+    background-color: #3d518f;
+    color: white;
+}
+.btn_list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+ul{
+    box-shadow: 5px 5px 15px rgb(32 33 36 / 28%);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    
+
+}
+li{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    list-style: none;
+
+}
+.btn{
+    
+
+    background-color: gray;
+    color: white;
+
+
+}
