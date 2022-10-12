@@ -1,6 +1,6 @@
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword , onAuthStateChanged ,signOut} from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword , onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
-import { getFirestore ,doc, setDoc } from "https://www.gstatic.com/firebasejs/9.10.0/firebase/firestore";
+import { getFirestore ,doc, setDoc } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js";
 
 
   const firebaseConfig = {
@@ -25,12 +25,23 @@ import { getFirestore ,doc, setDoc } from "https://www.gstatic.com/firebasejs/9.
 let email1 = document.getElementById("email1")
 let password1 = document.getElementById("password1")
 let loginBtn = document.getElementById("loginBtn")
+let emailRegx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
 if(loginBtn){
 
   loginBtn.addEventListener("click",() =>{
     event.preventDefault()
-        
+    if(email1.value.trim() == ""){
+      alert("empty email field")
+    }
+    else if(!emailRegx.test(email1.value)){
+      alert("Invalid email")
+    }
+    else if(password1.value.trim() == ""){
+      alert("empty password field")
+    }
+    else{
+      
           signInWithEmailAndPassword(auth, email1.value, password1.value)
           .then((userCredential) => {
             // Signed in 
@@ -48,6 +59,7 @@ if(loginBtn){
             const errorMessage = error.message;
             alert(errorMessage)
           });
+        }
       })
 }
 
